@@ -1,4 +1,5 @@
 import React from "react";
+import QuestionList from "../components/QuestionList";
 
 class HomePage extends React.Component {
     static propTypes = {
@@ -13,6 +14,8 @@ class HomePage extends React.Component {
             <div className="page page-home">
                 <section className="home-cover">
                     <div className="home-cover-content">
+                        <input className="form-group" type="text" />
+                        <QuestionList />
                     </div>
                 </section>
             </div>

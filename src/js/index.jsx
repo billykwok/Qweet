@@ -10,9 +10,12 @@ import NoMatchPage from "./containers/NoMatchPage";
 import $ from "jquery";
 require("bootstrap");
 import { solveBrowserCompat } from "./BrowserCompat";
+import { Test } from "./Test";
 
 $(function() {
     solveBrowserCompat();
+    new Test().init();
+
     ReactDOM.render(
         <Router history={ createBrowserHistory() }>
             <Route path="/" component={ App } >

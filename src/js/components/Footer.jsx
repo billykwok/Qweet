@@ -11,10 +11,7 @@ class Navbar extends React.Component {
         return (
             <footer className="bd-footer text-muted">
                 <div className="container">
-                    <ul className="bd-footer-links">
-                        <li><a href="https://fb.com/getideamagnet" target="_blank">Facebook</a></li>
-                    </ul>
-                    <p>Built with love by <a href="https://fb.com/getideamagnet" target="_blank">IdeaMagnet</a> © 2015</p>
+                    <p>Built with love by <a href="https://fb.com/getideamagnet" target="_blank">Memory Leaker</a> © 2015</p>
                 </div>
             </footer>
         );
