@@ -4,13 +4,13 @@
     transition: all .5s;
     -webkit-backface-visibility: hidden;
     -webkit-transform-style: preserve-3d;
-    background-color: #E46A59;
-    border-bottom: solid 0.0625rem darken(#E46A59, 10);;
+    background-color: $brand-primary;
+    border-bottom: solid 0.0625rem darken($brand-primary, 10);;
 
     .navbar-brand .navbar-brand-img {
         $img-height: 2.8rem;
         height: $img-height;
-        width: $img-height * 480 / 90;
+        width: $img-height * 640 / 209;
 
         -webkit-backface-visibility: hidden;
         -webkit-transform-style: preserve-3d;

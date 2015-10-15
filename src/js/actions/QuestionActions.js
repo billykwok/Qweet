@@ -1,8 +1,8 @@
 import alt from "../alt";
 
 class QuestionActions {
-    updateQuestion(title, content) {
-        return { title, content };
+    updateQuestion(headline, message) {
+        return { headline, message };
     }
 }
 

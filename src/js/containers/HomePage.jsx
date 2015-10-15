@@ -1,4 +1,5 @@
 import React from "react";
+import QuestionForm from "../components/QuestionForm";
 import QuestionList from "../components/QuestionList";
 
 class HomePage extends React.Component {
@@ -12,11 +13,11 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className="page page-home">
-                <section className="home-cover">
-                    <div className="home-cover-content">
-                        <input className="form-group" type="text" />
-                        <QuestionList />
-                    </div>
+                <section className="container question-form-container">
+                    <QuestionForm />
+                </section>
+                <section className="container question-list-container">
+                    <QuestionList />
                 </section>
             </div>
         );

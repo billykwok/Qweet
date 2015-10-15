@@ -4,7 +4,7 @@ export class Test {
     constructor() {
     }
     init() {
-        QuestionActions.updateQuestion("testing1", "testing2");
+        QuestionActions.updateQuestion("Why this course teaches so much outdated knowledge?", "Does anyone agree with me?");
         QuestionActions.updateQuestion("testing1", "testing2");
     }
 }
